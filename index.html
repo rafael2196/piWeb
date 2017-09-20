@@ -1,11 +1,11 @@
 <html>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="bootstrap.min.css" rel="stylesheet" >
 
 
-<form>
+<form action="listar.html">
 
-  <fieldset class="form-group">
-    <legend>Escolha o Campus</legend>
+  <fieldset class="form-group" >
+    <legend class="align-middle">Escolha o Campus</legend>
     <div class="form-check">
       <label class="form-check-label">
         <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
@@ -31,16 +31,16 @@
 
     <div class="form-group">
       <label for="nomeDaSala">Nome da sala:</label>
-      <input type="text" class="glyphicon glyphicon-align-left" id="nomeDaSala" placeholder="AA1">
+      <input type="text" class="glyphicon glyphicon-align-left" id="nomeDaSala" name="nomeDaSala" placeholder="AA1">
     </div>
     <div class="form-group">
       <label for="descSala">Descrição da sala:</label>
-      <textarea class="glyphicon glyphicon-align-left" id="descSala" rows="3" cols="20"></textarea>
+      <textarea class="glyphicon glyphicon-align-left" id="descSala" name="descSala" rows="3" cols="20"></textarea>
     </div>
 
   </fieldset>
 
-<input type="submit" class="btn btn-primary">
+<input type="submit" class="btn btn-danger">
 </form>
 
 </html>
