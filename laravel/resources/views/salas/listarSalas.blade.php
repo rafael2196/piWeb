@@ -1,8 +1,6 @@
-<html>
+﻿<html>
 
-
-
-<link href="bootstrap.min.css" rel="stylesheet" >
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
 <form>
@@ -25,10 +23,10 @@
 	  <th>Campus</th>
   	  <th>Descricão breve</th>
 	  </tr>
-	  <tr><td><a href='index.html'>IA2</a></td><td>Asa Sul</td><td>Vire a direita no predio vermelho</td></tr>
-	  <tr><td><a href='index.html'>BA1</a></td><td>Asa Norte</td><td>Vire a direita no predio Azul</td></tr>
-	  <tr><td><a href='index.html'>CA1</a></td><td>Asa Sul</td><td>Ande reto ate nao der mais</td></tr>
-	  <tr><td><a href='http://www.globo.com'>BC2</a></td><td>Asa Sul</td><td>Vire a esquerda no predio vermelho</td></tr>
+	  <tr><td><a href='cadastro'>IA2</a></td><td>Asa Sul</td><td>Vire a direita no predio vermelho</td></tr>
+	  <tr><td><a href='cadastro'>BA1</a></td><td>Asa Norte</td><td>Vire a direita no predio Azul</td></tr>
+	  <tr><td><a href='cadastro'>CA1</a></td><td>Asa Sul</td><td>Ande reto ate nao der mais</td></tr>
+	  <tr><td><a href='cadastro'>BC2</a></td><td>Asa Sul</td><td>Vire a esquerda no predio vermelho</td></tr>
 	  
 	</table>
 	<ul class="pager">

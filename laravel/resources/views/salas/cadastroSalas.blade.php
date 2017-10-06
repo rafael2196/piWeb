@@ -1,8 +1,10 @@
-<html>
-<link href="bootstrap.min.css" rel="stylesheet" >
+﻿<html>
 
 
-<form action="listar.html">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<form action="listar">
 
   <fieldset class="form-group" >
     <legend class="align-middle">Escolha o Campus</legend>
